@@ -1,0 +1,504 @@
+{
+  "airports": [
+    {
+      "code": "AP1",
+      "name": "International Airport 1",
+      "city": "Tokyo",
+      "country": "JP",
+      "lat": -6.104322403684347,
+      "lon": 107.55986247195246,
+      "contact": {
+        "phone": "+62-21-0001",
+        "email": "airport1@mail.com",
+        "website": "https://airport1.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": false,
+        "parking": true,
+        "restaurants": 17
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport1/400/300"
+    },
+    {
+      "code": "AP2",
+      "name": "International Airport 2",
+      "city": "London",
+      "country": "UK",
+      "lat": -5.47725906494788,
+      "lon": 107.54489546010714,
+      "contact": {
+        "phone": "+62-21-0002",
+        "email": "airport2@mail.com",
+        "website": "https://airport2.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": true,
+        "parking": true,
+        "restaurants": 13
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport2/400/300"
+    },
+    {
+      "code": "AP3",
+      "name": "International Airport 3",
+      "city": "Paris",
+      "country": "FR",
+      "lat": -5.715498217253242,
+      "lon": 107.42805209976025,
+      "contact": {
+        "phone": "+62-21-0003",
+        "email": "airport3@mail.com",
+        "website": "https://airport3.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": false,
+        "parking": true,
+        "restaurants": 17
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport3/400/300"
+    },
+    {
+      "code": "AP4",
+      "name": "International Airport 4",
+      "city": "Dubai",
+      "country": "AE",
+      "lat": -5.367671048961464,
+      "lon": 106.90722363579424,
+      "contact": {
+        "phone": "+62-21-0004",
+        "email": "airport4@mail.com",
+        "website": "https://airport4.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": true,
+        "parking": true,
+        "restaurants": 4
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport4/400/300"
+    },
+    {
+      "code": "AP5",
+      "name": "International Airport 5",
+      "city": "Singapore",
+      "country": "SG",
+      "lat": -6.003424190391023,
+      "lon": 107.23570149629036,
+      "contact": {
+        "phone": "+62-21-0005",
+        "email": "airport5@mail.com",
+        "website": "https://airport5.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": false,
+        "parking": true,
+        "restaurants": 10
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport5/400/300"
+    },
+    {
+      "code": "AP6",
+      "name": "International Airport 6",
+      "city": "Sydney",
+      "country": "AU",
+      "lat": -5.589234106506527,
+      "lon": 107.0542741930117,
+      "contact": {
+        "phone": "+62-21-0006",
+        "email": "airport6@mail.com",
+        "website": "https://airport6.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": true,
+        "parking": true,
+        "restaurants": 2
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport6/400/300"
+    },
+    {
+      "code": "AP7",
+      "name": "International Airport 7",
+      "city": "New York",
+      "country": "US",
+      "lat": -5.572424646899706,
+      "lon": 107.14163275659506,
+      "contact": {
+        "phone": "+62-21-0007",
+        "email": "airport7@mail.com",
+        "website": "https://airport7.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": false,
+        "parking": true,
+        "restaurants": 3
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport7/400/300"
+    },
+    {
+      "code": "AP8",
+      "name": "International Airport 8",
+      "city": "Jakarta",
+      "country": "ID",
+      "lat": -5.706324457589986,
+      "lon": 107.2251449790239,
+      "contact": {
+        "phone": "+62-21-0008",
+        "email": "airport8@mail.com",
+        "website": "https://airport8.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": true,
+        "parking": true,
+        "restaurants": 14
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport8/400/300"
+    },
+    {
+      "code": "AP9",
+      "name": "International Airport 9",
+      "city": "Tokyo",
+      "country": "JP",
+      "lat": -5.337065739614702,
+      "lon": 107.21659687775467,
+      "contact": {
+        "phone": "+62-21-0009",
+        "email": "airport9@mail.com",
+        "website": "https://airport9.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": false,
+        "parking": true,
+        "restaurants": 20
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport9/400/300"
+    },
+    {
+      "code": "AP10",
+      "name": "International Airport 10",
+      "city": "London",
+      "country": "UK",
+      "lat": -6.133065228283344,
+      "lon": 107.34810701841795,
+      "contact": {
+        "phone": "+62-21-00010",
+        "email": "airport10@mail.com",
+        "website": "https://airport10.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": true,
+        "parking": true,
+        "restaurants": 18
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport10/400/300"
+    },
+    {
+      "code": "AP11",
+      "name": "International Airport 11",
+      "city": "Paris",
+      "country": "FR",
+      "lat": -5.391562960516782,
+      "lon": 107.21544209418673,
+      "contact": {
+        "phone": "+62-21-00011",
+        "email": "airport11@mail.com",
+        "website": "https://airport11.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": false,
+        "parking": true,
+        "restaurants": 10
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport11/400/300"
+    },
+    {
+      "code": "AP12",
+      "name": "International Airport 12",
+      "city": "Dubai",
+      "country": "AE",
+      "lat": -5.659369657208156,
+      "lon": 107.40373310659045,
+      "contact": {
+        "phone": "+62-21-00012",
+        "email": "airport12@mail.com",
+        "website": "https://airport12.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": true,
+        "parking": true,
+        "restaurants": 6
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport12/400/300"
+    },
+    {
+      "code": "AP13",
+      "name": "International Airport 13",
+      "city": "Singapore",
+      "country": "SG",
+      "lat": -5.761329872804193,
+      "lon": 107.50368593721302,
+      "contact": {
+        "phone": "+62-21-00013",
+        "email": "airport13@mail.com",
+        "website": "https://airport13.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": false,
+        "parking": true,
+        "restaurants": 16
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport13/400/300"
+    },
+    {
+      "code": "AP14",
+      "name": "International Airport 14",
+      "city": "Sydney",
+      "country": "AU",
+      "lat": -5.948412094825342,
+      "lon": 107.76939325600335,
+      "contact": {
+        "phone": "+62-21-00014",
+        "email": "airport14@mail.com",
+        "website": "https://airport14.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": true,
+        "parking": true,
+        "restaurants": 1
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport14/400/300"
+    },
+    {
+      "code": "AP15",
+      "name": "International Airport 15",
+      "city": "New York",
+      "country": "US",
+      "lat": -5.873779480497326,
+      "lon": 107.71539553371731,
+      "contact": {
+        "phone": "+62-21-00015",
+        "email": "airport15@mail.com",
+        "website": "https://airport15.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": false,
+        "parking": true,
+        "restaurants": 8
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport15/400/300"
+    },
+    {
+      "code": "AP16",
+      "name": "International Airport 16",
+      "city": "Jakarta",
+      "country": "ID",
+      "lat": -5.975828460085012,
+      "lon": 107.71304274289831,
+      "contact": {
+        "phone": "+62-21-00016",
+        "email": "airport16@mail.com",
+        "website": "https://airport16.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": true,
+        "parking": true,
+        "restaurants": 13
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport16/400/300"
+    },
+    {
+      "code": "AP17",
+      "name": "International Airport 17",
+      "city": "Tokyo",
+      "country": "JP",
+      "lat": -5.314908779711784,
+      "lon": 107.67082609666464,
+      "contact": {
+        "phone": "+62-21-00017",
+        "email": "airport17@mail.com",
+        "website": "https://airport17.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": false,
+        "parking": true,
+        "restaurants": 2
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport17/400/300"
+    },
+    {
+      "code": "AP18",
+      "name": "International Airport 18",
+      "city": "London",
+      "country": "UK",
+      "lat": -5.990832467684107,
+      "lon": 107.42895392334472,
+      "contact": {
+        "phone": "+62-21-00018",
+        "email": "airport18@mail.com",
+        "website": "https://airport18.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": true,
+        "parking": true,
+        "restaurants": 16
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport18/400/300"
+    },
+    {
+      "code": "AP19",
+      "name": "International Airport 19",
+      "city": "Paris",
+      "country": "FR",
+      "lat": -5.813444187332349,
+      "lon": 106.8577738785664,
+      "contact": {
+        "phone": "+62-21-00019",
+        "email": "airport19@mail.com",
+        "website": "https://airport19.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": false,
+        "parking": true,
+        "restaurants": 8
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport19/400/300"
+    },
+    {
+      "code": "AP20",
+      "name": "International Airport 20",
+      "city": "Dubai",
+      "country": "AE",
+      "lat": -5.70977818987393,
+      "lon": 106.92830925920224,
+      "contact": {
+        "phone": "+62-21-00020",
+        "email": "airport20@mail.com",
+        "website": "https://airport20.com"
+      },
+      "facilities": {
+        "wifi": true,
+        "lounge": true,
+        "parking": true,
+        "restaurants": 2
+      },
+      "operational_hours": {
+        "open": "00:00",
+        "close": "23:59",
+        "timezone": "UTC+7"
+      },
+      "image": "https://picsum.photos/seed/airport20/400/300"
+    }
+  ]
+}

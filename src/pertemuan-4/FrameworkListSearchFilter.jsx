@@ -66,7 +66,7 @@ export default function FrameworkListSearchFilter() {
             </select>
 
             {filteredFrameworks.map((item) => (
-		            <div key={item.id} className="border p-4 mb-4 ml-4 inline-block w-100
+		            <div key={item.id} className="border p-4 mb-4 ml-5 inline-block w-100
                                                     hover:bg-amber-200 transition duration-300
                                                     rounded-lg shadow-md 
                                                     bg-white">
