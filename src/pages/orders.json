@@ -1,0 +1,214 @@
+{
+  "orders": [
+    {
+      "order_id": "O001",
+      "customer_name": "Andi Saputra",
+      "status": "Completed",
+      "total_price": 213553,
+      "order_date": "2026-04-01"
+    },
+    {
+      "order_id": "O002",
+      "customer_name": "Budi Santoso",
+      "status": "Pending",
+      "total_price": 373379,
+      "order_date": "2026-04-02"
+    },
+    {
+      "order_id": "O003",
+      "customer_name": "Citra Dewi",
+      "status": "Pending",
+      "total_price": 459173,
+      "order_date": "2026-04-03"
+    },
+    {
+      "order_id": "O004",
+      "customer_name": "Dewi Lestari",
+      "status": "Cancelled",
+      "total_price": 76852,
+      "order_date": "2026-04-04"
+    },
+    {
+      "order_id": "O005",
+      "customer_name": "Eko Prasetyo",
+      "status": "Pending",
+      "total_price": 357501,
+      "order_date": "2026-04-05"
+    },
+    {
+      "order_id": "O006",
+      "customer_name": "Fajar Nugroho",
+      "status": "Cancelled",
+      "total_price": 327397,
+      "order_date": "2026-04-06"
+    },
+    {
+      "order_id": "O007",
+      "customer_name": "Gita Putri",
+      "status": "Completed",
+      "total_price": 270169,
+      "order_date": "2026-04-07"
+    },
+    {
+      "order_id": "O008",
+      "customer_name": "Hendra Wijaya",
+      "status": "Pending",
+      "total_price": 479636,
+      "order_date": "2026-04-08"
+    },
+    {
+      "order_id": "O009",
+      "customer_name": "Indah Sari",
+      "status": "Cancelled",
+      "total_price": 470420,
+      "order_date": "2026-04-09"
+    },
+    {
+      "order_id": "O010",
+      "customer_name": "Joko Susilo",
+      "status": "Completed",
+      "total_price": 71641,
+      "order_date": "2026-04-10"
+    },
+    {
+      "order_id": "O011",
+      "customer_name": "Kiki Amelia",
+      "status": "Completed",
+      "total_price": 323665,
+      "order_date": "2026-04-11"
+    },
+    {
+      "order_id": "O012",
+      "customer_name": "Lukman Hakim",
+      "status": "Pending",
+      "total_price": 315116,
+      "order_date": "2026-04-12"
+    },
+    {
+      "order_id": "O013",
+      "customer_name": "Maya Sari",
+      "status": "Cancelled",
+      "total_price": 311220,
+      "order_date": "2026-04-13"
+    },
+    {
+      "order_id": "O014",
+      "customer_name": "Nanda Putra",
+      "status": "Completed",
+      "total_price": 378694,
+      "order_date": "2026-04-14"
+    },
+    {
+      "order_id": "O015",
+      "customer_name": "Oki Pratama",
+      "status": "Cancelled",
+      "total_price": 96170,
+      "order_date": "2026-04-15"
+    },
+    {
+      "order_id": "O016",
+      "customer_name": "Putri Ayu",
+      "status": "Pending",
+      "total_price": 220125,
+      "order_date": "2026-04-16"
+    },
+    {
+      "order_id": "O017",
+      "customer_name": "Rizky Hidayat",
+      "status": "Pending",
+      "total_price": 386078,
+      "order_date": "2026-04-17"
+    },
+    {
+      "order_id": "O018",
+      "customer_name": "Sinta Dewi",
+      "status": "Completed",
+      "total_price": 284958,
+      "order_date": "2026-04-18"
+    },
+    {
+      "order_id": "O019",
+      "customer_name": "Tono Saputra",
+      "status": "Completed",
+      "total_price": 450078,
+      "order_date": "2026-04-19"
+    },
+    {
+      "order_id": "O020",
+      "customer_name": "Umar Faruq",
+      "status": "Cancelled",
+      "total_price": 211766,
+      "order_date": "2026-04-20"
+    },
+    {
+      "order_id": "O021",
+      "customer_name": "Vina Lestari",
+      "status": "Completed",
+      "total_price": 146797,
+      "order_date": "2026-04-21"
+    },
+    {
+      "order_id": "O022",
+      "customer_name": "Wawan Setiawan",
+      "status": "Pending",
+      "total_price": 178180,
+      "order_date": "2026-04-22"
+    },
+    {
+      "order_id": "O023",
+      "customer_name": "Xena Putri",
+      "status": "Completed",
+      "total_price": 151974,
+      "order_date": "2026-04-23"
+    },
+    {
+      "order_id": "O024",
+      "customer_name": "Yoga Pratama",
+      "status": "Pending",
+      "total_price": 314579,
+      "order_date": "2026-04-24"
+    },
+    {
+      "order_id": "O025",
+      "customer_name": "Zaki Ahmad",
+      "status": "Cancelled",
+      "total_price": 68262,
+      "order_date": "2026-04-25"
+    },
+    {
+      "order_id": "O026",
+      "customer_name": "Aulia Rahman",
+      "status": "Cancelled",
+      "total_price": 97607,
+      "order_date": "2026-04-26"
+    },
+    {
+      "order_id": "O027",
+      "customer_name": "Bagas Saputra",
+      "status": "Cancelled",
+      "total_price": 399940,
+      "order_date": "2026-04-27"
+    },
+    {
+      "order_id": "O028",
+      "customer_name": "Cindy Natalia",
+      "status": "Cancelled",
+      "total_price": 91464,
+      "order_date": "2026-04-28"
+    },
+    {
+      "order_id": "O029",
+      "customer_name": "Dimas Prakoso",
+      "status": "Cancelled",
+      "total_price": 188302,
+      "order_date": "2026-04-29"
+    },
+    {
+      "order_id": "O030",
+      "customer_name": "Erlangga Putra",
+      "status": "Pending",
+      "total_price": 76663,
+      "order_date": "2026-04-30"
+    }
+  ]
+}
