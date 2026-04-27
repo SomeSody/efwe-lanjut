@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 
-export function MainLayout(){
+export default function MainLayout(){
     const [count, setCount] = useState(0)
 
     return(
