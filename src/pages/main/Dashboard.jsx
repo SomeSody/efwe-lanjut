@@ -1,7 +1,7 @@
 import { FaShoppingCart, FaTruck, FaBan, FaDollarSign } from "react-icons/fa";
-import PageHeader from "../components/PageHeader";
-import OrderList from "../components/OrderList";
-import DeliverList from "../components/DeliverList";
+import PageHeader from "../../components/PageHeader";
+import OrderList from "../../components/OrderList";
+import DeliverList from "../../components/DeliverList";
 
 export default function Dashboard() {
     return (

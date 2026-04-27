@@ -1,7 +1,7 @@
 import { FaBell, FaSearch } from "react-icons/fa";
 import { FcAreaChart } from "react-icons/fc";
 import { SlSettings } from "react-icons/sl";
-import ProfileMenu from "../components/ProfileMenu";
+import ProfileMenu from "./ProfileMenu";
 
 export default function Header() {
     return (

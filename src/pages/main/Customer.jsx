@@ -1,6 +1,6 @@
 import { useState } from "react";
-import PageHeader from "../components/PageHeader";
-import CustomerTable from "../components/CustomerTable";
+import PageHeader from "../../components/PageHeader";
+import CustomerTable from "../../components/CustomerTable";
 import customers from "./customers.json";
 
 export default function Customer() {

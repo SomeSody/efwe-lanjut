@@ -1,6 +1,6 @@
 import { useState } from "react";
-import PageHeader from "../components/PageHeader";
-import OrdersTable from "../components/OrdersTable";
+import PageHeader from "../../components/PageHeader";
+import OrdersTable from "../../components/OrdersTable";
 import orders from "./orders.json";
 
 export default function Orders() {
