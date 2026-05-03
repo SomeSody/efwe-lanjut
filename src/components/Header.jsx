@@ -6,7 +6,7 @@ import ProfileMenu from "./ProfileMenu";
 export default function Header() {
     return (
         <div className="flex justify-between items-center p-4" id="header-container">
-            {/* Search Bar */}
+            {/* Search Bar
             <div className="relative w-full max-w-lg" id="search-bar">
                 <input className="border border-gray-100 p-2 pr-10 bg-white w-full max-w-lg rounded-md outline-none"
                     id="search-input"
@@ -14,7 +14,7 @@ export default function Header() {
                     placeholder="Search Here..."
                 />
                 <FaSearch className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-300" id="search-icon" />
-            </div>
+            </div> */}
 
             {/* Icon & Profile Section */}
             <div className="flex items-center space-x-4" id="icons-container">

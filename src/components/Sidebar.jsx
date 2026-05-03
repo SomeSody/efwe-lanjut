@@ -4,8 +4,11 @@ import { AiFillCustomerService } from "react-icons/ai";
 import { BsBorderStyle } from "react-icons/bs"; 
 import { MdDashboard } from "react-icons/md"; 
 import { Link, NavLink } from "react-router-dom";
+import { useState } from "react";
 
 export default function Sidebar() {
+  const [activeTab, setActiveTab] = useState(0);
+  
 
         const menuClass = ({ isActive }) =>
         `flex cursor-pointer items-center rounded-xl p-4  space-x-2
@@ -20,7 +23,7 @@ export default function Sidebar() {
             {/* Logo */}
             <div className="flex flex-col" id="sidebar-logo">
                 <span className="font-poppins text-[48px] text-gray-900" id="logo-title">
-		                Sedap <b className="text-hijau" id="logo-dot">.</b>
+		                TravelingGo
 		            </span>
                 <span className="font-semibold text-gray-400" id="logo-subtitle">Modern Admin Dashboard</span>
             </div>
@@ -32,12 +35,11 @@ export default function Sidebar() {
 	                    <NavLink className={menuClass} id="menu-1" to="/"><MdDashboard />Dashboard</NavLink>
 	                </li>
                     <li>
-	                    <NavLink className={menuClass} id="menu-2" to="orders"><BsBorderStyle />Orders</NavLink>
-	                </li>
-	                <li>
 	                    <NavLink className={menuClass} id="menu-3" to="customer"><AiFillCustomerService />Customers</NavLink>
 	                </li>
-	                <li>
+                    {/* <li>
+	                    <NavLink className={menuClass} id="menu-2" to="orders"><BsBorderStyle />Orders</NavLink>
+	                </li>
 	                    <NavLink className={menuClass} id="menu-4" to="/deliverer"><CiDeliveryTruck/>Deliverer</NavLink>
 	                </li>
 	                <li>
@@ -51,6 +53,21 @@ export default function Sidebar() {
                     </li>
                     <li>
                         <NavLink className={menuClass} to="/403">Error 403</NavLink>
+                    </li> */}
+                    <li>
+                        <NavLink className={menuClass} to="/search-all"><BsBorderStyle />Search All</NavLink>
+                    </li>
+                    <li>
+                        <NavLink className={menuClass} to="/things-to-do"><BsBorderStyle />Things to Do</NavLink>
+                    </li>
+                    <li>
+                        <NavLink className={menuClass} to="/hotels"><BsBorderStyle />Hotels</NavLink>
+                    </li>
+                    <li>
+                        <NavLink className={menuClass} to="/restaurants"><BsBorderStyle />Restaurants</NavLink>
+                    </li>
+                    <li>
+                        <NavLink className={menuClass} to="/cruises"><BsBorderStyle />Cruises</NavLink>
                     </li>
                 </ul>
             </div>
@@ -61,12 +78,12 @@ export default function Sidebar() {
                     <div className="text-white text-sm" id="footer-text">
                         <span>Please organize your menus through button below!</span>
                         <div className="flex justify-center items-center p-2 mt-3 bg-white rounded-md space-x-2" id="add-menu-button">
-                            <span className="text-gray-600 flex items-center">Add Menus</span>
+                            <span className="text-gray-600 flex items-center">Contact Us</span>
                         </div>
                     </div>
                     <img className="w-20 rounded-full" id="footer-avatar" src="/img/syahul.jpg" />
                 </div>
-                <span className="font-bold text-gray-400" id="footer-brand">Sedap Restaurant Admin Dashboard</span>
+                <span className="font-bold text-gray-400" id="footer-brand">TravelingGo Admin Dashboard</span>
                 <p className="font-light text-gray-400" id="footer-copyright">&copy; 2025 All Right Reserved</p>
             </div>
         </div>
