@@ -1,0 +1,251 @@
+{
+  "products": [
+    {
+     "id": 1,
+      "title": "Laptop ASUS VivoBook",
+      "code": "P001",
+      "category": "Electronics",
+      "brand": "ASUS",
+      "price": 8500000,
+      "stock": 12
+    },
+    {
+     "id": 2,
+      "title": "Smartphone Samsung Galaxy A14",
+      "code": "P002",
+      "category": "Electronics",
+      "brand": "Samsung",
+      "price": 2500000,
+      "stock": 25
+    },
+    {
+      "title": "Headphone Sony WH-1000XM4",
+      "code": "P003",
+      "category": "Accessories",
+      "brand": "Sony",
+      "price": 3200000,
+      "stock": 8
+    },
+    {
+      "title": "Sepatu Nike Air Force",
+      "code": "P004",
+      "category": "Fashion",
+      "brand": "Nike",
+      "price": 1500000,
+      "stock": 20
+    },
+    {
+      "title": "Tas Ransel Eiger",
+      "code": "P005",
+      "category": "Fashion",
+      "brand": "Eiger",
+      "price": 450000,
+      "stock": 30
+    },
+
+    {
+      "title": "Mouse Logitech Wireless",
+      "code": "P006",
+      "category": "Accessories",
+      "brand": "Logitech",
+      "price": 200000,
+      "stock": 40
+    },
+    {
+      "title": "Keyboard Mechanical Rexus",
+      "code": "P007",
+      "category": "Accessories",
+      "brand": "Rexus",
+      "price": 550000,
+      "stock": 18
+    },
+    {
+      "title": "Monitor LG 24 Inch",
+      "code": "P008",
+      "category": "Electronics",
+      "brand": "LG",
+      "price": 2100000,
+      "stock": 10
+    },
+    {
+      "title": "Jaket Hoodie Uniqlo",
+      "code": "P009",
+      "category": "Fashion",
+      "brand": "Uniqlo",
+      "price": 600000,
+      "stock": 22
+    },
+    {
+      "title": "Jam Tangan Casio",
+      "code": "P010",
+      "category": "Accessories",
+      "brand": "Casio",
+      "price": 350000,
+      "stock": 35
+    },
+
+    {
+      "title": "Tablet iPad Gen 9",
+      "code": "P011",
+      "category": "Electronics",
+      "brand": "Apple",
+      "price": 5500000,
+      "stock": 7
+    },
+    {
+      "title": "Powerbank Xiaomi 20000mAh",
+      "code": "P012",
+      "category": "Accessories",
+      "brand": "Xiaomi",
+      "price": 300000,
+      "stock": 50
+    },
+    {
+      "title": "Kamera Canon EOS M50",
+      "code": "P013",
+      "category": "Electronics",
+      "brand": "Canon",
+      "price": 7200000,
+      "stock": 5
+    },
+    {
+      "title": "Speaker JBL Flip 5",
+      "code": "P014",
+      "category": "Electronics",
+      "brand": "JBL",
+      "price": 1800000,
+      "stock": 15
+    },
+    {
+      "title": "Celana Jeans Levi's",
+      "code": "P015",
+      "category": "Fashion",
+      "brand": "Levi's",
+      "price": 700000,
+      "stock": 28
+    },
+
+    {
+      "title": "Kacamata Ray-Ban",
+      "code": "P016",
+      "category": "Accessories",
+      "brand": "RayBan",
+      "price": 1200000,
+      "stock": 9
+    },
+    {
+      "title": "Printer Epson L3210",
+      "code": "P017",
+      "category": "Electronics",
+      "brand": "Epson",
+      "price": 2300000,
+      "stock": 11
+    },
+    {
+      "title": "Router TP-Link",
+      "code": "P018",
+      "category": "Electronics",
+      "brand": "TP-Link",
+      "price": 400000,
+      "stock": 26
+    },
+    {
+      "title": "Topi Adidas",
+      "code": "P019",
+      "category": "Fashion",
+      "brand": "Adidas",
+      "price": 250000,
+      "stock": 33
+    },
+    {
+      "title": "Sandal Crocs",
+      "code": "P020",
+      "category": "Fashion",
+      "brand": "Crocs",
+      "price": 500000,
+      "stock": 19
+    },
+
+    {
+      "title": "Harddisk External WD 1TB",
+      "code": "P021",
+      "category": "Electronics",
+      "brand": "WD",
+      "price": 750000,
+      "stock": 14
+    },
+    {
+      "title": "Flashdisk Sandisk 64GB",
+      "code": "P022",
+      "category": "Accessories",
+      "brand": "Sandisk",
+      "price": 120000,
+      "stock": 60
+    },
+    {
+      "title": "Tripod Kamera",
+      "code": "P023",
+      "category": "Accessories",
+      "brand": "Generic",
+      "price": 150000,
+      "stock": 21
+    },
+    {
+      "title": "Smartwatch Amazfit",
+      "code": "P024",
+      "category": "Electronics",
+      "brand": "Amazfit",
+      "price": 1300000,
+      "stock": 13
+    },
+    {
+      "title": "Kaos Polos H&M",
+      "code": "P025",
+      "category": "Fashion",
+      "brand": "H&M",
+      "price": 150000,
+      "stock": 45
+    },
+
+    {
+      "title": "Blender Philips",
+      "code": "P026",
+      "category": "Home Appliances",
+      "brand": "Philips",
+      "price": 400000,
+      "stock": 17
+    },
+    {
+      "title": "Rice Cooker Miyako",
+      "code": "P027",
+      "category": "Home Appliances",
+      "brand": "Miyako",
+      "price": 350000,
+      "stock": 23
+    },
+    {
+      "title": "Kipas Angin Cosmos",
+      "code": "P028",
+      "category": "Home Appliances",
+      "brand": "Cosmos",
+      "price": 300000,
+      "stock": 16
+    },
+    {
+      "title": "Vacuum Cleaner Sharp",
+      "code": "P029",
+      "category": "Home Appliances",
+      "brand": "Sharp",
+      "price": 900000,
+      "stock": 8
+    },
+    {
+      "title": "Setrika Philips",
+      "code": "P030",
+      "category": "Home Appliances",
+      "brand": "Philips",
+      "price": 250000,
+      "stock": 27
+    }
+  ]
+}

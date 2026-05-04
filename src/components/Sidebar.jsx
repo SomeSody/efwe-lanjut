@@ -37,6 +37,9 @@ export default function Sidebar() {
                     <li>
 	                    <NavLink className={menuClass} id="menu-3" to="customer"><AiFillCustomerService />Customers</NavLink>
 	                </li>
+                    <li>
+	                    <NavLink className={menuClass} id="menu-4" to="produk"><CiDeliveryTruck />Products</NavLink>
+	                </li>
                     {/* <li>
 	                    <NavLink className={menuClass} id="menu-2" to="orders"><BsBorderStyle />Orders</NavLink>
 	                </li>
