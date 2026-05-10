@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PageHeader from "../../components/PageHeader";
 import OrdersTable from "../../components/OrdersTable";
-import orders from "./orders.json";
+import orders from "../../components/orders.json";
 
 export default function Orders() {
     const [showModal, setShowModal] = useState(false);

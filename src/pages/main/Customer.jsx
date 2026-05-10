@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PageHeader from "../../components/PageHeader";
-import CustomerTable from "../../components/CustomerTable";
+import CustomerTable from "./CustomerTable";
 import customers from "./customers.json";
 
 export default function Customer() {
@@ -9,7 +9,8 @@ export default function Customer() {
 
   return (
     <div>
-      <PageHeader title="Customer Management" breadcrumb={["Customer Management"]}>
+      <PageHeader title="Customer Management" 
+                  breadcrumb={["Customer Management"]}>
         <button
           onClick={() => setShowModal(true)}
           className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium"

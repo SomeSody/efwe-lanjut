@@ -1,7 +1,7 @@
 {
   "products": [
     {
-     "id": 1,
+      "id": 1,
       "title": "Laptop ASUS VivoBook",
       "code": "P001",
       "category": "Electronics",
@@ -10,7 +10,7 @@
       "stock": 12
     },
     {
-     "id": 2,
+      "id": 2,
       "title": "Smartphone Samsung Galaxy A14",
       "code": "P002",
       "category": "Electronics",
@@ -19,6 +19,7 @@
       "stock": 25
     },
     {
+      "id": 3,
       "title": "Headphone Sony WH-1000XM4",
       "code": "P003",
       "category": "Accessories",

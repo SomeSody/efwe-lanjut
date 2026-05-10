@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"; 
+
 export default function CustomerTable({ data }) {
   return (
     <div className="overflow-x-auto">
@@ -16,7 +18,11 @@ export default function CustomerTable({ data }) {
           {data?.map((item, index) => (
             <tr key={index} className="text-center hover:bg-gray-50 transition">
               <td className="px-4 py-2 border">{item.customer_id}</td>
-              <td className="px-4 py-2 border">{item.customer_name}</td>
+              <td className="px-4 py-2 border">
+                  <Link to={`/customer/${item.customer_id}`} className="text-emerald-400 hover:text-emerald-500">
+                        {item.customer_name}
+                  </Link>
+              </td>
               <td className="px-4 py-2 border">{item.email}</td>
               <td className="px-4 py-2 border">{item.phone}</td>
               <td className="px-4 py-2 border">{item.loyalty}</td>
