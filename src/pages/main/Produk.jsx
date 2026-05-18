@@ -1,3 +1,4 @@
+import Card from "../../components/Card";
 import PageHeader from "../../components/PageHeader";
 import data from "./produk.json";
 import { Link } from "react-router-dom";
@@ -14,8 +15,7 @@ export default function Produk() {
                 </button>
             </PageHeader>
 
-            <div className="p-4">
-                <table className="w-full border">
+            <Card>
                     <thead>
                         <tr className="bg-gray-200">
                             <th className="p-2">Code</th>
@@ -44,8 +44,7 @@ export default function Produk() {
                             </tr>
                         ))}
                     </tbody>
-                </table>
-            </div>
+            </Card>
         </div>
     );
 }
