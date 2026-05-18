@@ -58,7 +58,7 @@ export default function Sidebar() {
                     <li>
                         <NavLink className={menuClass} to="/403">Error 403</NavLink>
                     </li> */}
-                    <li>
+                    {/* <li>
                         <NavLink className={menuClass} to="/search-all"><BsBorderStyle />Search All</NavLink>
                     </li>
                     <li>
@@ -72,6 +72,9 @@ export default function Sidebar() {
                     </li>
                     <li>
                         <NavLink className={menuClass} to="/cruises"><BsBorderStyle />Cruises</NavLink>
+                    </li> */}
+                    <li>
+                        <NavLink className={menuClass} to="/components"><BsBorderStyle />Components</NavLink>
                     </li>
                 </ul>
             </div>
