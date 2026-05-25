@@ -11,7 +11,7 @@ export default function Orders() {
 
     return (
         <div id="orders-container">
-            <PageHeader title="Orders Management" breadcrumb={["Orders Management"]}>
+            <PageHeader title="Orders Management" breadcrumb={["Dashboard", "Orders Management"]}>
                 <button
                     onClick={() => setShowModal(true)}
                     className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium"

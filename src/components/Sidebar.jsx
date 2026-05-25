@@ -43,6 +43,9 @@ export default function Sidebar() {
                     <li>
 	                    <NavLink className={menuClass} id="menu-2" to="orders"><BsCalendarEvent />Orders</NavLink>
 	                </li>
+                    <li>
+                        <NavLink className={menuClass} id="menu-6" to="fitur-xyz"><BsBorderStyle />Fitur XYZ</NavLink>
+                    </li>
                     {/* 
 	                    <NavLink className={menuClass} id="menu-4" to="/deliverer"><CiDeliveryTruck/>Deliverer</NavLink>
 	                </li>
