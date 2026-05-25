@@ -3,7 +3,7 @@ export default function PageHeader({ title, breadcrumb, children }) {
         <div className="flex items-center justify-between p-4" id="pageheader-container">
             <div className="flex flex-col" id="pageheader-left">
                 
-                <span className="text-3xl font-semibold" id="page-title">
+                <span className="flex items-left text-3xl font-semibold" id="page-title">
                     {title}
                 </span>
 
