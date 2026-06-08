@@ -13,6 +13,7 @@ const ProductDetail = React.lazy(() => import("./pages/main/ProductDetail"))
 const CustomerDetail = React.lazy(() => import("./pages/main/CustomerDetail"))
 const OrderDetail = React.lazy(() => import("./components/OrderDetail"))
 const FiturXyx = React.lazy(() => import("./pages/main/FiturXyz"))
+const Note = React.lazy(() => import("./pages/main/Note"))
 
 const NotFound = React.lazy(() => import("./pages/main/NotFound"))
 const Error400 = React.lazy(() => import("./pages/main/Error400"))
@@ -44,6 +45,7 @@ return (
             <Route path="/products/:id" element={<ProductDetail />} /> 
             <Route path="/components" element={<Components />} />
             <Route path="/fitur-xyz" element={<FiturXyx />} />
+            <Route path="/note" element={<Note />} />
 
             <Route path="*" element={<NotFound />} />
             <Route path="/400" element={<Error400 />} />
