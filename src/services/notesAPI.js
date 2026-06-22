@@ -1,27 +1,28 @@
-import axios from 'axios'
-
-const API_URL = "https://zqlmjgtymitddybvolhh.supabase.co/rest/v1/note"
-const API_KEY = "sb_publishable_rDL4jEEpTIAMzryPpu34ZA_leKKjNmg"
-
-const headers = {
-    apikey: API_KEY,
-    Authorization: `Bearer ${API_KEY}`,
-    "Content-Type": "application/json",
-}
+import { supabase } from '../lib/supabaseClient'
 
 export const notesAPI = {
     async fetchNotes() {
-        const response = await axios.get(API_URL, { headers })
-        return response.data
+        const { data, error } = await supabase
+            .from('note')
+            .select('*')
+        if (error) throw error
+        return data
     },
 
     async createNote(data) {
-        const response = await axios.post(API_URL, data, { headers })
-        return response.data
+        const { data: result, error } = await supabase
+            .from('note')
+            .insert([data])
+            .select()
+        if (error) throw error
+        return result
     },
-    
+
     async deleteNote(id) {
-        await axios.delete(`${API_URL}?id=eq.${id}`, { headers })
+        const { error } = await supabase
+            .from('note')
+            .delete()
+            .eq('id', id)
+        if (error) throw error
     }
 }
-
